@@ -50,7 +50,6 @@ p {
 .choices {
     height: 120px;
     width: 120px;
-    background-color: #e5e7eb;
 }
 
 #button-container {
@@ -68,6 +67,7 @@ p {
 }
 
 #results {
+    height: 24px;
     padding: 12px;
     font-weight: 500;
 }
