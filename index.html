@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Rock, Paper, Scissors</title>
         <link rel="stylesheet" href="css/styles.css">
-        <script src="js/rps.js"></script>
+        <script src="js/rps.js" defer></script>
     </head>
 
     <body>
@@ -16,20 +16,16 @@
                 <div id="info-display">
                     <div id="score">
                         <p id="player-score">Player: 0</p>
-                        <p id="computer-score">Computer: 1</p>
-                        <p id="round">Round: 1</p>
+                        <p id="computer-score">Computer: 0</p>
+                        <p id="round">Round: 0</p>
                     </div>
                     <div id="results">
-                        <!--<p>Scissors beats paper. Computers wins!</p> -->
+                        <p></p>
                     </div>
                 </div>
                 <div id="choice-display">
-                    <div class="choices" id="player-choice">
-                        <!--<img src="img/paper-player.png">-->
-                    </div>
-                    <div class="choices" id="computer-choice">
-                        <!--<img src="img/scissors-comp.png">-->
-                    </div>
+                    <div class="choices" id="player-choice"></div>
+                    <div class="choices" id="computer-choice"></div>
                 </div>
                 <div id="button-container">
                     <div id="choice-buttons">
